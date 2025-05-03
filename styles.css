@@ -1,0 +1,26 @@
+body {
+    background-image: url('https://i.pinimg.com/736x/d5/b6/98/d5b6982d59c323f61b028c9f836a636e.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    color: lime;
+    font-family: 'Comic Sans MS', cursive;
+    text-align: center;
+  }
+  
+  .glow {
+    font-size: 48px;
+    color: #0ff;
+    text-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
+  }
+  
+  .blinking {
+    animation: blink 1s steps(2, start) infinite;
+  }
+  
+  @keyframes blink {
+    to { visibility: hidden; }
+  }
+  
